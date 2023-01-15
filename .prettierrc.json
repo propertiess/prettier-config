@@ -19,7 +19,7 @@
   "multilineArraysWrapThreshold": 2,
   "importOrderSeparation": true,
   "importOrder": [
-    "^(react|next(.*))$",
+    "^(react|next|react-dom(.*))$",
     "<THIRD_PARTY_MODULES>",
     "^@/components(.*)$",
     "^@/(hooks|store/hooks(.*))$",
