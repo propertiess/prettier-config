@@ -11,11 +11,18 @@
   "scripts": {
     "format": "prettier --write --ignore-unknown **"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/propertiess/prettier-config.git"
+  },
   "author": {
     "name": "Vladislav Erofeev",
     "email": "erofeev2001@yandex.ru"
   },
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/propertiess/prettier-config/issues"
+  },
   "devDependencies": {
     "@trivago/prettier-plugin-sort-imports": "^4.0.0",
     "prettier": "^2.8.3",
