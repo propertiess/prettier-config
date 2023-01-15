@@ -1,0 +1,34 @@
+{
+  "tabWidth": 2,
+  "printWidth": 80,
+  "arrowParens": "avoid",
+  "endOfLine": "crlf",
+  "overrides": [
+    {
+      "files": ".*rc",
+      "options": {
+        "parser": "json"
+      }
+    }
+  ],
+  "semi": true,
+  "trailingComma": "none",
+  "singleQuote": true,
+  "jsxSingleQuote": true,
+  "plugins": ["@trivago/prettier-plugin-sort-imports", "prettier-plugin-multiline-arrays"],
+  "multilineArraysWrapThreshold": 2,
+  "importOrderSeparation": true,
+  "importOrder": [
+    "^(react|next(.*))$",
+    "<THIRD_PARTY_MODULES>",
+    "^@/components(.*)$",
+    "^@/(hooks|store/hooks(.*))$",
+    "^@/store(.*)$",
+    "^@/context(.*)$",
+    "^@/services(.*)$",
+    "^@/types(.*)$",
+    "^@/(.*)$",
+    "^(.*)(sass|css|scss)$"
+  ],
+  "importOrderSortSpecifiers": true
+}
