@@ -27,8 +27,7 @@
     "^@/context(.*)$",
     "^@/services(.*)$",
     "^@/types(.*)$",
-    "^@/(.*)$",
-    "^(.*)(sass|css|scss)$"
+    "^[./]"
   ],
   "importOrderSortSpecifiers": true
 }
