@@ -21,14 +21,16 @@
   "importOrder": [
     "^(react|next|react-router-dom|react-dom(.*))$",
     "<THIRD_PARTY_MODULES>",
-    "^@/components(.*)$",
-    "^@/(hooks|store/hooks(.*))$",
+    "^@/(components|app/(.*)/components(.*))$",
+    "^@/(hooks|store/hooks|app/(.*)/hooks(.*))$",
     "^@/store(.*)$",
-    "^@/context(.*)$",
-    "^@/services(.*)$",
-    "^@/types(.*)$",
-    "^@/utils(.*)$",
-    "^[./]"
+    "^@/(contexts|app/(.*)/contexts(.*))$",
+    "^@/(services|app/(.*)/services(.*))$",
+    "^@/(types|app/(.*)/types(.*))$",
+    "^@/(utils|app/(.*)/utils(.*))$",
+    "^@/layouts?(.*)$",
+    "^[./]",
+    "^(.*)(sass|css|scss)$"
   ],
   "importOrderSortSpecifiers": true
 }
