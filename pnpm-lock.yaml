@@ -3,20 +3,12 @@ lockfileVersion: 5.4
 specifiers:
   husky: ^8.0.3
   prettier: ^2.8.3
-  prettier-plugin-multiline-arrays: ^1.1.3
 
 devDependencies:
   husky: 8.0.3
   prettier: 2.8.3
-  prettier-plugin-multiline-arrays: 1.1.3
 
 packages:
-
-  /@augment-vir/common/8.1.0:
-    resolution: {integrity: sha512-mVE9upO/BIHdRIH/HoJAHDaHk57AxtQ3BvmI0B2o2xMvripDxuPf7jhxL793uyJtprLF2X6yE0BhG/rgLeHLbw==}
-    dependencies:
-      type-fest: 3.5.2
-    dev: true
 
   /husky/8.0.3:
     resolution: {integrity: sha512-+dQSyqPh4x1hlO1swXBiNb2HzTDN1I2IGLQx1GrBuiqFJfoMrnZWwVmatvSiO+Iz8fBUnf+lekwNo4c2LlXItg==}
@@ -24,19 +16,8 @@ packages:
     hasBin: true
     dev: true
 
-  /prettier-plugin-multiline-arrays/1.1.3:
-    resolution: {integrity: sha512-8I4FWatPhZXAsPMKM5E6h92ZRLAniJDdl9Uyy5aBvz9jJxc27CYQJIKBXdRW1SHrgKjEeWchmsAkLVyORIEOqw==}
-    dependencies:
-      '@augment-vir/common': 8.1.0
-    dev: true
-
   /prettier/2.8.3:
     resolution: {integrity: sha512-tJ/oJ4amDihPoufT5sM0Z1SKEuKay8LfVAMlbbhnnkvt6BUserZylqo2PN+p9KeljLr0OHa2rXHU1T8reeoTrw==}
     engines: {node: '>=10.13.0'}
     hasBin: true
-    dev: true
-
-  /type-fest/3.5.2:
-    resolution: {integrity: sha512-Ph7S4EhXzWy0sbljEuZo0tTNoLl+K2tPauGrQpcwUWrOVneLePTuhVzcuzVJJ6RU5DsNwQZka+8YtkXXU4z9cA==}
-    engines: {node: '>=14.16'}
     dev: true
