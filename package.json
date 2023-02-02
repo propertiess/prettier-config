@@ -1,6 +1,6 @@
 {
   "name": "@propertiess/prettier-config",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "prettier config",
   "main": "./.prettierrc.json",
   "prettier": "./.prettierrc.json",
@@ -25,13 +25,11 @@
     "url": "https://github.com/propertiess/prettier-config/issues"
   },
   "devDependencies": {
-    "@trivago/prettier-plugin-sort-imports": "^4.0.0",
     "husky": "^8.0.3",
     "prettier": "^2.8.3",
     "prettier-plugin-multiline-arrays": "^1.1.3"
   },
   "peerDependencies": {
-    "@trivago/prettier-plugin-sort-imports": "^4.0.0",
     "prettier": "^2.8.3",
     "prettier-plugin-multiline-arrays": "^1.1.3"
   },

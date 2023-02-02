@@ -15,22 +15,7 @@
   "trailingComma": "none",
   "singleQuote": true,
   "jsxSingleQuote": true,
-  "plugins": ["@trivago/prettier-plugin-sort-imports", "prettier-plugin-multiline-arrays"],
-  "multilineArraysWrapThreshold": 2,
-  "importOrderSeparation": true,
-  "importOrder": [
-    "^(react|next|react-router-dom|react-dom(.*))$",
-    "<THIRD_PARTY_MODULES>",
-    "^@/(components|app/(.*)/components(.*))$",
-    "^@/(hooks|store/hooks|app/(.*)/hooks(.*))$",
-    "^@/store(.*)$",
-    "^@/(contexts|app/(.*)/contexts(.*))$",
-    "^@/(services|app/(.*)/services(.*))$",
-    "^@/(types|app/(.*)/types(.*))$",
-    "^@/(utils|app/(.*)/utils(.*))$",
-    "^@/layouts?(.*)$",
-    "^[./]",
-    "^(.*)(sass|css|scss)$"
-  ],
-  "importOrderSortSpecifiers": true
+  "plugins": ["prettier-plugin-multiline-arrays"],
+  "multilineArraysWrapThreshold": 5,
+  "multilineArraysLinePattern": "2 2"
 }
