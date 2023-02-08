@@ -1,6 +1,6 @@
 {
   "name": "@propertiess/prettier-config",
-  "version": "1.0.9",
+  "version": "1.1.0",
   "description": "prettier config",
   "main": "./.prettierrc.json",
   "prettier": "./.prettierrc.json",
@@ -26,10 +26,12 @@
   },
   "devDependencies": {
     "husky": "^8.0.3",
-    "prettier": "^2.8.3"
+    "prettier": "^2.8.3",
+    "prettier-plugin-tailwindcss": "^0.2.2"
   },
   "peerDependencies": {
-    "prettier": "^2.8.3"
+    "prettier": "^2.8.3",
+    "prettier-plugin-tailwindcss": "^0.2.2"
   },
   "packageManager": "pnpm@7.17.0"
 }
